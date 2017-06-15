@@ -48,10 +48,10 @@
 *.pdb
 
 # Kernel Module Compile Results
-@
-machine
-x86
-export_syms
+/@
+/machine
+/x86
+/export_syms
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
@@ -102,3 +102,7 @@ flycheck_*.el
 
 # End of https://www.gitignore.io/api/c,emacs
 
+# Other stuff for nano, etc.
+
+\#*\#
+.\#*
